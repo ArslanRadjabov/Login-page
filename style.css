@@ -5,8 +5,9 @@
 }
 body{
     display: flex;
-    width: 1410px;
+    height: 1410vh;
     font-family: 'Poppins', sans-serif;
+    margin: auto;
 }
 .container{
     padding-top: 150px;
@@ -37,6 +38,12 @@ body{
 }
 .inputs{
     height: 35px;
+    border: none;
+    border-bottom: 2px solid #6c39f7;
+    font-size: 20px;
+}
+input:focus{
+    outline: none ;
 }
 .email{
     display: flex;
